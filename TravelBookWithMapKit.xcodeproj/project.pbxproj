@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		7C0503182A0A27D700FD837A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0503172A0A27D700FD837A /* AppDelegate.swift */; };
 		7C05031A2A0A27D700FD837A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0503192A0A27D700FD837A /* SceneDelegate.swift */; };
-		7C05031C2A0A27D700FD837A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05031B2A0A27D700FD837A /* ViewController.swift */; };
-		7C05031F2A0A27D700FD837A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C05031D2A0A27D700FD837A /* Main.storyboard */; };
+		7C05031C2A0A27D700FD837A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05031B2A0A27D700FD837A /* MapViewController.swift */; };
 		7C0503222A0A27D700FD837A /* TravelBookWithMapKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C0503202A0A27D700FD837A /* TravelBookWithMapKit.xcdatamodeld */; };
 		7C0503242A0A27D800FD837A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0503232A0A27D800FD837A /* Assets.xcassets */; };
 		7C0503272A0A27D800FD837A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0503252A0A27D800FD837A /* LaunchScreen.storyboard */; };
+		7C0503312A0A667500FD837A /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0503302A0A667500FD837A /* MapViewModel.swift */; };
+		7C0503342A0A66B700FD837A /* MapViewModelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0503332A0A66B700FD837A /* MapViewModelOutput.swift */; };
+		7C65746D2A0BD9A300F52030 /* SavedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65746C2A0BD9A300F52030 /* SavedLocation.swift */; };
+		7C9AC8242A0CF59D00E3E28D /* SavedLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC8232A0CF59D00E3E28D /* SavedLocationsViewController.swift */; };
+		7C9AC8262A0CF5CD00E3E28D /* SavedLocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC8252A0CF5CD00E3E28D /* SavedLocationsViewModel.swift */; };
+		7C9AC8282A0D2CE400E3E28D /* SavedLocationsOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC8272A0D2CE400E3E28D /* SavedLocationsOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C0503142A0A27D700FD837A /* TravelBookWithMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelBookWithMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0503172A0A27D700FD837A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C0503192A0A27D700FD837A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C05031B2A0A27D700FD837A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C05031E2A0A27D700FD837A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C05031B2A0A27D700FD837A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7C0503212A0A27D700FD837A /* TravelBookWithMapKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelBookWithMapKit.xcdatamodel; sourceTree = "<group>"; };
 		7C0503232A0A27D800FD837A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C0503262A0A27D800FD837A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C0503282A0A27D800FD837A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C0503302A0A667500FD837A /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		7C0503332A0A66B700FD837A /* MapViewModelOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModelOutput.swift; sourceTree = "<group>"; };
+		7C65746C2A0BD9A300F52030 /* SavedLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocation.swift; sourceTree = "<group>"; };
+		7C9AC8232A0CF59D00E3E28D /* SavedLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocationsViewController.swift; sourceTree = "<group>"; };
+		7C9AC8252A0CF5CD00E3E28D /* SavedLocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocationsViewModel.swift; sourceTree = "<group>"; };
+		7C9AC8272A0D2CE400E3E28D /* SavedLocationsOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocationsOutput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,77 @@
 		7C0503162A0A27D700FD837A /* TravelBookWithMapKit */ = {
 			isa = PBXGroup;
 			children = (
+				7C9AC8202A0CF52400E3E28D /* SavedLocationsPage */,
+				7C9AC81F2A0CF4E500E3E28D /* SaveLocationPage */,
 				7C0503172A0A27D700FD837A /* AppDelegate.swift */,
 				7C0503192A0A27D700FD837A /* SceneDelegate.swift */,
-				7C05031B2A0A27D700FD837A /* ViewController.swift */,
-				7C05031D2A0A27D700FD837A /* Main.storyboard */,
 				7C0503232A0A27D800FD837A /* Assets.xcassets */,
 				7C0503252A0A27D800FD837A /* LaunchScreen.storyboard */,
 				7C0503282A0A27D800FD837A /* Info.plist */,
 				7C0503202A0A27D700FD837A /* TravelBookWithMapKit.xcdatamodeld */,
 			);
 			path = TravelBookWithMapKit;
+			sourceTree = "<group>";
+		};
+		7C05032E2A0A664500FD837A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7C0503332A0A66B700FD837A /* MapViewModelOutput.swift */,
+				7C05031B2A0A27D700FD837A /* MapViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7C05032F2A0A665900FD837A /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7C0503302A0A667500FD837A /* MapViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		7C65746B2A0BD96C00F52030 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7C65746C2A0BD9A300F52030 /* SavedLocation.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7C9AC81F2A0CF4E500E3E28D /* SaveLocationPage */ = {
+			isa = PBXGroup;
+			children = (
+				7C05032E2A0A664500FD837A /* view */,
+				7C05032F2A0A665900FD837A /* viewModel */,
+				7C65746B2A0BD96C00F52030 /* model */,
+			);
+			path = SaveLocationPage;
+			sourceTree = "<group>";
+		};
+		7C9AC8202A0CF52400E3E28D /* SavedLocationsPage */ = {
+			isa = PBXGroup;
+			children = (
+				7C9AC8222A0CF54B00E3E28D /* viewModel */,
+				7C9AC8212A0CF54700E3E28D /* view */,
+			);
+			path = SavedLocationsPage;
+			sourceTree = "<group>";
+		};
+		7C9AC8212A0CF54700E3E28D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7C9AC8232A0CF59D00E3E28D /* SavedLocationsViewController.swift */,
+				7C9AC8272A0D2CE400E3E28D /* SavedLocationsOutput.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7C9AC8222A0CF54B00E3E28D /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7C9AC8252A0CF5CD00E3E28D /* SavedLocationsViewModel.swift */,
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +201,6 @@
 			files = (
 				7C0503272A0A27D800FD837A /* LaunchScreen.storyboard in Resources */,
 				7C0503242A0A27D800FD837A /* Assets.xcassets in Resources */,
-				7C05031F2A0A27D700FD837A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +211,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9AC8262A0CF5CD00E3E28D /* SavedLocationsViewModel.swift in Sources */,
+				7C0503342A0A66B700FD837A /* MapViewModelOutput.swift in Sources */,
+				7C0503312A0A667500FD837A /* MapViewModel.swift in Sources */,
 				7C0503222A0A27D700FD837A /* TravelBookWithMapKit.xcdatamodeld in Sources */,
-				7C05031C2A0A27D700FD837A /* ViewController.swift in Sources */,
+				7C05031C2A0A27D700FD837A /* MapViewController.swift in Sources */,
 				7C0503182A0A27D700FD837A /* AppDelegate.swift in Sources */,
 				7C05031A2A0A27D700FD837A /* SceneDelegate.swift in Sources */,
+				7C9AC8282A0D2CE400E3E28D /* SavedLocationsOutput.swift in Sources */,
+				7C65746D2A0BD9A300F52030 /* SavedLocation.swift in Sources */,
+				7C9AC8242A0CF59D00E3E28D /* SavedLocationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C05031D2A0A27D700FD837A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C05031E2A0A27D700FD837A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C0503252A0A27D800FD837A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +364,6 @@
 				INFOPLIST_FILE = TravelBookWithMapKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +391,6 @@
 				INFOPLIST_FILE = TravelBookWithMapKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
